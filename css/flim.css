@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.subnav{
+    width:100%;
+    height: 60px;
+    background-color: #47464A;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+}
+.navbar li{
+    width:150px;
+    display: inline-block;
+    position: relative;
+}
+.navbar li a{
+    display: block;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #999999;
+}
+.navbar li a:hover{
+    color: white;
+}
+/* .navbar li a:active{
+    color: #EF4343;
+} */
+.subnav .active{
+    color: #EF4343;
+}
+.active::before{
+    content: '';
+    display: block;
+    width: 2px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #FFFFFF transparent;
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    margin-left: -7px;
+}
+.movies-channel{
+    width: 1120px;
+    height: 1900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tags-panel{ 
+    width: 1120px;
+    height: 241px;
+    margin-top: 40px;
+    border: 1px solid #E5E5E5;
+}
+.tag-lines{
+    list-style: none;
+}
+.tag-line{
+    width: 1100px;
+    height: 80px;
+    margin: 0px auto;
+    border-bottom: 1px dotted #E5E5E5;
+    position: relative;
+}
+.tag-line .tags-title{
+    width: 50px;
+    position: absolute;
+    font-size:14px;
+    top: 10px;
+    left: 20px;
+    color: #999999;
+}
+.tag-line .tags{
+    position: absolute;
+    width: 1000px;
+    top: 10px;
+    left: 70px;
+}
+.tags ul{
+    list-style: none;
+}
+.tags ul li{
+    float: left;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+}
+.tags ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+    font-size: 14px;
+}
+.tag-line .all{
+    border-radius: 20px;
+    background-color: #EF4343;
+}
+.movies-panel{
+    width: 1120px;
+    margin-top: 45px;
+}
+.movies-pager{
+    width: 1120px;
+}
+.movies-pager ul{
+    list-style: none;
+    width: 1120px;
+    text-align: center;
+}
+.movies-pager ul li{
+    display: inline-block;
+    margin-left: 8px;
+}
+.movies-pager ul li a{
+    display:block;
+    height: 30px;
+    text-align: center;
+    padding: 0 15px;
+    line-height: 30px;
+    text-decoration: none;
+    border: 1px solid #d8d8d8;
+    color: black;
+}
+.movies-pager ul li a:hover{
+    border: 1px solid #EF4238;
+}
