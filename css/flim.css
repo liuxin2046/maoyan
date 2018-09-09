@@ -26,7 +26,7 @@
     text-decoration: none;
     color: #999999;
 }
-.navbar li a:hover{
+.navbar li a:not(.active):hover{/* 排除已经激活的链接 */
     color: white;
 }
 /* .navbar li a:active{
