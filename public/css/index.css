@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+.prev_button,.next_button{
+    width: 3%;
+    height: 25%;
+    background: rgba(0,0,0,.3);
+    top: 10rem;
+}
+.prev_button{
+    left: 2rem;
+}
+.next_button{
+    right: 2rem;
+}
+.panel-header{
+    width: 100%;
+    line-height: 26px;
+}
+.panel-title{
+    font-size: 26px;
+}
+div.row span a.more{
+    text-decoration: none;
+    line-height: 12px;
+}
+div.info{
+    position: absolute;
+    bottom: 2.5rem;
+    padding: 5px;
+    background: rgba(0,0,0,.4);
+    width: 86%;
+}
+.score{
+    color: #ffb400;
+}
+i.integer{
+    font-size: 20px;
+    font-style: italic;
+}
+div.sale{
+    height: 39px;
+    line-height: 39px;
+    font-size: 14px;
+}
+div.sale a{
+    color: #ef4238;
+    display: block;
+    height: 39px;
+    width: 100%;
+}
+div.sale a:hover{
+    color: #ffffff;
+    background: #ef4238;
+    text-decoration: none;
+}
+div.imax3d{
+    position: absolute;
+    left:0;
+    top:0.5rem;
+}
+
+/*票房*/
+div.panel-header a.top{
+    position: relative;
+    border: 1px solid #efefef;
+}
+span.top_icon{
+    background: url("../img/top.png") no-repeat;
+    width: 22px;
+    height: 25px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+div.panel-header a:hover{
+    text-decoration: none;
+    background: #f7f7f7;
+}
+p.ranking-top-right{
+    position: absolute;
+    top: 1rem;
+    left: 8rem;
+}
+p.movie_wish{
+    position: absolute;
+    top:3rem;
+    left: 8rem;
+}
+.ranking-index{
+    font-size: 20px;
+    width: 30px;
+ }
+div.panel-header a.normal span.ranking_movie_name{
+    max-width: 190px;
+    color: #333;
+}
+div.panel-header div.box-total{
+    background: #fdfdfd;
+    border: 1px solid #efefef;
+}
+div.panel-header div.box-total>h3{
+    width: 40px;
+    height: 100px;
+    font-size: 17px;
+    line-height: 21px;
+}
+div.box-total span.num{
+    font-size: 30px;
+    font-weight: 700;
+}
+div.box-total .info{
+    font-size: 12px;
+}
+/*即将上映*/
+div.moving div.info,div.moving p,div.moving .detail{
+    position:relative;
+    bottom: 2.2rem;
+    left: 0;
+}
+span.expect-top-right{
+     position: absolute;
+     top: 0rem;
+     left: 10rem;
+ }
+span.expect-top-right span.movie_name{
+    font-size: 24px;
+}
+div a div span.num_icon{
+    background: url("../img/star.png") no-repeat;
+    width: 22px;
+    height: 25px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left:51%;
+}
+/*TOP100*/
+div a div span.star_icon{
+    background: url("../img/star.png") no-repeat;
+    width: 22px;
+    height: 25px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left:0;
+}

@@ -1,0 +1,166 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+}
+.container{
+	margin: 0 auto;
+	width: 1200px;
+}
+/* 标签导航 */
+.tags-panel{
+	border: 1px solid #e5e5e5;
+	padding: 0 20px;
+	margin: 40px 0;
+	position: relative;
+}
+.tags-line{
+	margin-left: 10px;
+	padding: 10px;
+}
+.tags-line-border{
+	border-top: 1px dashed #e5e5e5;
+}
+.tags-title{
+	font-size: 14px;
+	color: #999;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+}
+.tags li{
+	display: inline-block;
+	border-radius: 14px;
+	margin-left: 12px;
+	padding: 3px 9px;
+}
+.tags .active{
+	background: #f34d41;
+	border-radius: 14px;
+	color: #fff;
+}
+.tags .active a{
+	color: #FFFFFF;
+}
+.tags li a{
+	font-size: 14px;
+	color: #333;
+}
+.tags li a:hover{
+	color: #F34D41;
+}
+.tags .active a:hover{
+	color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+}
+/* 影院列表 */
+.cinemas-list h2{
+	font-size: 18px;
+	color: #333333;
+	border-left: 4px solid #F34D41;
+	padding-left: 6px;
+	margin: 0;
+	line-height: 18px;
+}
+.cinemas-list .cinema-cell{
+	display: block;
+	padding: 20px 0;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.cinema-info{
+	display: inline-block;
+	
+}
+.cinema-name{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 18px;
+	color: #333333;
+}
+.cinema-name:hover{
+	color: #F34D41;
+}
+.cinema-address{
+	color: #999999;
+	font-size: 14px;
+	line-height: 14px;
+}
+.buy-btn{
+	float: right;
+	margin-left: 36px;
+	width: 80px;
+	height: 45px;
+	line-height: 45px;
+}
+.buy-btn a{
+	display: inline-block;
+	background-color: #F34D41;
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 14px;
+}
+.price-num{
+	font-size: 16px;
+}
+.red{
+	color: #F34D41;
+}
+.price{
+	display: inline-block;
+	color: #999;
+	font-size: 12px;
+	float: right;
+	height: 45px;
+	line-height: 45px;
+}
+/* 分页 */
+.cinema-pager{
+	text-align: center;
+}
+.list-pager{
+	display: block;
+	list-style: none;
+	margin: 16px 0;
+	padding-left: 40px;
+}
+.list-pager li{
+	display: inline-block;
+	border: 1px solid #d8d8d8;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 4px;
+	text-align: center;
+	color: #999999;
+}
+.list-pager li:hover{
+	border: 1px solid #F34D41;
+}
+.list-pager li a{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	padding: 0 12px;
+}
+.list-pager li.active{
+	background: #F34D41;
+	color: #FFFFFF;
+}
+.list-pager li.active a{
+	color: #FFFFFF;
+}
+.sep{
+	padding: 0 12px;
+}
+

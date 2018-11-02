@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.footer{
+	min-width: 1300px;
+	height: 235px; 
+	background: #262426;
+	padding: 56px 0;
+	color: #666666;
+}
+.footer p{
+	text-align: center;
+	font-size: 14px;
+}
+.footer a{
+	color: #EF4238;
+	text-decoration: none;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
